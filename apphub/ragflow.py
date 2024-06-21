@@ -39,7 +39,7 @@ class Ragflow(App):
         install_location 安装路径
         version 安装版本
         """
-        source_directory: str = None
+        source_directory: str | None = None
 
     cfg: RagflowOption
 
