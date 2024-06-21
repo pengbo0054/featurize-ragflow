@@ -1,0 +1,21 @@
+[project]
+name = "ragflow"
+description = "RagFlow"
+authors = [{name= "Dave", email = "pengbo@featurize.ai"}]
+version = "1.0.0"
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/pengbo0054/featurize-ragflow"
+Documentation = "https://github.com/pengbo0054/featurize-ragflow/blob/main/README.md"
+Repository = "https://github.com/pengbo0054/featurize-ragflow"
+Changelog = "https://github.com/pengbo0054/featurize-ragflow/blob/main/CHANGELOG.md"
+Issues = "https://github.com/pengbo0054/featurize-ragflow/issues"
+
+[featurize]
+port = "20039"
+op_port = "31268"
+icon = "https://ragflow.io/img/logo.svg"
+author_github = "https://github.com/pengbo0054"
+name = "RagFlow"
+newtab = false
