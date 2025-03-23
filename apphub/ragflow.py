@@ -127,7 +127,7 @@ RagFlow
         # 调用 app_started，标准流程，该函数会通知前端应用已经开始运行
         os.environ['RAGFLOW_PORT'] = str(self.port)
         self.execute_command(
-            f"docker compose -f docker-compose-CN.yml up",
+            f"docker compose -f docker-compose-gpu.yml up",
             self.cfg.source_directory,
             daemon=True,
         ) 
